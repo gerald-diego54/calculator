@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator ng Bayan</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="cal-container">
+        <div class="cal-screen-container">
+            <input class="cal-screen-input" id="input" style="background: #0074B7; border: 1px; font-size: 50px; color: white;" placeholder="0" readonly></input>
+        </div>
+                <div class="cal-btn-row">
+                    <button onclick="cal('+')" class="cal-btn keys">
+                        +
+                    </a>
+                    <button onclick="cal('-')" class="cal-btn keys">
+                        -
+                    </a>
+                    <button onclick="cal('*')" class="cal-btn keys">
+                        &times;
+                    </a>
+                    <button onclick="cal('/')" class="cal-btn keys">
+                        &divide;
+                    </button>
+                </div>
+                <div class="cal-btn-row">
+                    <button onclick="cal(9)" onclick="" class="cal-btn">
+                        9
+                    </a>
+                    <button onclick="cal(8)" class="cal-btn keys">
+                        8
+                    </a>
+                    <button onclick="cal(7)" class="cal-btn keys">
+                        7
+                    </a>
+                    <button onclick="cal(6)" class="cal-btn keys">
+                        6
+                    </button>
+                </div>
+                <div class="cal-btn-row">
+                    <button onclick="cal(5)" onclick="" class="cal-btn">
+                        5
+                    </a>
+                    <button onclick="cal(4)" class="cal-btn keys">
+                        4
+                    </a>
+                    <button onclick="cal(3)" class="cal-btn keys">
+                        3
+                    </a>
+                    <button onclick="cal(2)" class="cal-btn keys">
+                        2
+                    </button>
+                </div>
+                <div class="cal-btn-row">
+                    <button onclick="cal(1)" onclick="" class="cal-btn">
+                        1
+                    </a>
+                    <button onclick="cal(0)" class="cal-btn keys">
+                        0
+                    </a>
+                    <button onclick="compute()" class="cal-btn keys" style="width: 158px;">
+                        =
+                    </a>
+                </div>
+                <div class="cal-btn-row">
+                    <button onclick="clear()" class="cal-btn" style="width: 158px;">
+                        C
+                    </button>
+                    <button onclick="clear_all()" class="cal-btn keys" style="margin-left: -2px;">
+                        AC
+                    </button>
+                    <button onclick="cal('.')" class="cal-btn keys" style="margin-left: 0;">
+                        .
+                    </button>
+                </div>
+            </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>

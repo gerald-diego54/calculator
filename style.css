@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    height: 583px;
+    width: 330px;
+    background: #04D4F0;
+}
+.container > .btn-row {
+    width: 100%;
+    display: flex;
+}
+.container > .btn-row > .btn {
+    padding: 20px;
+    display: inline-block;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
+    width: 23%;
+    position: relative;
+    top: 30px;
+    left: 5px;
+    margin: 2px;
+    background: #6AF2F0;
+    color: black;
+    border-right: solid 2px #6af2f0bb;
+    border-bottom: solid 2px #6AF2F0bb;
+    border-top: 0;
+    border-left: 0;
+    transition: all 0.2s ease-in-out;
+}
+.container > .btn-row > .btn:hover {
+    background: white;
+    color: black;
+    transform: rotate(9deg);
+}
+.container > .btn-row > .span {
+    width: 156px;
+    color: #000000;
+}
+.container > .btn-row > .active {
+    color: #f18900;
+    width: 156px;
+}
+.container > .btn-row > .shade {
+    color: #646464;
+}
+.container > #input {
+    margin-top: 10px;
+    margin-left: 16px;
+    padding: 18px 0 0 0;
+    width: 85%;
+    position: relative;
+    left: 7px;
+    height: 51px;
+    border: 0;
+    background: #04D4F0;
+    text-align: right;
+    color: #000000;
+    font-size: 20px;
+    border-bottom: dotted 2px;
+}
+.container > #output {
+    width: 85%;
+    height: 71px;
+    border: 0;
+    background: #04D4F0;
+    font-size: 45px;
+    text-align: right;
+    color: white;
+    position: relative;
+    left: 23px;
+}
